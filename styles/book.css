@@ -14,14 +14,19 @@
     height: auto;
     margin-left: 20px;
 }
-p{
+p, ul, li{
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 24px !important;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: justify;
+}
+ul{
+    list-style-type: none;
+    padding: 0px !important;
+    
 }
 .hero-container{
     padding-top: 160px;
@@ -64,4 +69,10 @@ select,input{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.red{
+    color: #FB0707;
+}
+.left{
+    text-align: left;
 }
