@@ -14,7 +14,6 @@ ul li {
 .navbar{
     background-color:#ffedd8;
     color: black;
-    position: static;
     z-index: 10;
 }
 .cur-page{
