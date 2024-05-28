@@ -1,8 +1,4 @@
 .header-container{
-height: 1000px;
-background-image: url(../img/video.svg);
-background-size: cover;
-background-position: bottom;
 margin-bottom: 150PX;
 }
 h2{
@@ -23,7 +19,7 @@ h2{
   background-color: #ffffff;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 0px 4px 30px -5px #00000026;
-  border-top: 20px solid #7c6a46;
+  border-top: 20px solid #583101;
 }
 
 .container .text-wrapper-10 {
@@ -49,4 +45,40 @@ h2{
 .rectangle{
   width: 100%;
   height: auto; 
+  border-radius: 20px;
+}
+
+#video{
+  position: relative;
+  width: 100%; /* Adjust according to your video size */
+  height: auto;
+  margin-top: 50px;
+}
+
+#playButton {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  animation: pulse 2s infinite alternate; /* Add animation */
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+#playButton::before {
+  font-size: 2em;
+  display: block;
+  color: black;
+  line-height: 80px;
+  text-align: center;
 }
