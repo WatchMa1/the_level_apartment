@@ -43,7 +43,6 @@
         </ul>
         <button class="nav-btn" style="z-index: 0;" type="submit" onclick="scheduleCall()">Book Now</button>
       </div>
-
     </div>
   </nav>
 
@@ -65,25 +64,25 @@
   <div class="form-container mt-5">
     <form action="" method="post" class="d-flex justify-content-center">
       <div class="form-inner-container row w-90 pt-4 pe-5 ps-5 pb-4">
-        <div class="col-3 align-content-center">
+        <div class="col-12 p-3 col-md-3 align-content-center">
           <label for="check_in">Check_in</label>
-          <input type="date" id="check_in" placeholder="">
+          <input type="date" id="check_in" placeholder="null" class="white-placeholder">
         </div>
-        <div class="col-3 align-content-center">
+        <div class="col-12 p-3 col-md-3 align-content-center">
           <label for="check_out">Check_in</label>
-          <input type="date" id="check_out" placeholder="">
+          <input type="date" id="check_out" class="white-placeholder">
         </div>
-        <div class="col-2 align-content-center">
+        <div class="col-12 p-3 col-md-2 align-content-center">
           <label for="guests">Guests:</label><br>
-          <select id="guests" name="cars">
+          <select id="guests" name="guest">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
           </select>
         </div>
-        <div class="btn-col col-4 ">
-          <span class="">Check Availability</span>
+        <div class="btn-column  col-12 p-3 col-md-4 ">
+          <span class="btn-col pt-3 pb-3 ps-2 pe-2 ps-md-4 pe-md-4 fs-5">Check Availability</span>
         </div>
       </div>
     </form>
