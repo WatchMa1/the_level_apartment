@@ -15,7 +15,7 @@
 </head>
 
 <body style="background-color: #ffedd8;">
-  <nav class="navbar navbar-expand-lg pb-5 pt-5 position-fixed w-100">
+  <nav class="navbar navbar-expand-lg pb-5 pt-5 w-100">
     <div class="container ">
       <a class="navbar-brand " href="index.html">The LEVEL</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -46,12 +46,12 @@
     </div>
   </nav>
 
-  <div class="container top-pad">
+  <div class="container pad-hero pt-5">
     <div class="row">
-      <div class="col-5">
+      <div class="col-12 col-md-5">
         <div class="d-flex">
           <p class="about-hd pe-5">PREMIUM CHOICE</p>
-          <div class="line-parent  d-none d-md-flex ">
+          <div class="line-parent  d-none d-lg-flex ">
             <div class="frame-child"></div>
             <img class="frame-item" alt="" src="img/Polygon 1.svg">
           </div>
@@ -60,7 +60,7 @@
           <h2 class="sec-head">2 Bedroom Apartments</h2>
         </div>
       </div>
-      <div class="col-7 position-relative">
+      <div class="col-12 col-md-7 position-relative">
         <div class="group-div">
           <p>Immerse yourself in the epitome of urban sophistication with our meticulously crafted 2-bedroom apartments
             at The Level. Offering contemporary elegance and unparalleled comfort, each residence features sleek modern
@@ -74,23 +74,23 @@
       </div>
     </div>
   </div>
-  <div class="container pb-5 mt-3 mb-5">
+  <div class="container pb-5 mt-0 mt-md-3 mb-md-5">
     <div class="row">
-      <div class="left-cont col-4">
+      <div class="left-cont col-6 col-md-4">
       </div>
-      <div class="right col-8 ">
+      <div class="right col-6 col-md-8 ">
       </div>
       <div class="bottom1 col-4"></div>
       <div class="bottom2 col-4 "></div>
       <div class="bottom3 col-4 "></div>
     </div>
   </div>
-  <div class="container top-pad">
+  <div class="container">
     <div class="row">
-      <div class="col-5">
+      <div class="col-12 col-md-5">
         <div class="d-flex">
           <p class="about-hd pe-5">LUXE HOMES</p>
-          <div class="line-parent  d-none d-md-flex ">
+          <div class="line-parent  d-none d-lg-flex ">
             <div class="frame-child"></div>
             <img class="frame-item" alt="" src="img/Polygon 1.svg">
           </div>
@@ -99,7 +99,7 @@
           <h2 class="sec-head">1 Bedroom Apartments</h2>
         </div>
       </div>
-      <div class="col-7 position-relative">
+      <div class="col-12 col-md-7 position-relative">
         <div class="group-div">
           <p>Discover urban sophistication in our meticulously designed 1-bedroom apartments at The Level. Each
             residence offers modern elegance and comfort, providing a serene retreat amidst the vibrant cityscape. With
@@ -112,7 +112,7 @@
       </div>
     </div>
   </div>
-  <div class="container pb-5 mt-3 mb-5">
+  <div class="container pb-md-5 mt-3 mb-md-5">
     <div class="row">
       <div class="left-cont2 col-4">
       </div>
@@ -123,7 +123,7 @@
       <div class="bottom6 col-4 "></div>
     </div>
   </div>
-  <footer class="p-5">
+  <footer class="p-md-5">
     <div class="row p-md-5">
       <div class="col-md-6 col-12 pb-5">
         <div class="frame-2">
@@ -159,7 +159,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
+  <script>
+    window.addEventListener('scroll', function () {
+      var nav = document.querySelector('.navbar');
+      if (window.scrollY > 700) {
+        nav.classList.add('fixed-top');
+      } else {
+        nav.classList.remove('fixed-top');
+      }
+    });
+  </script>
 </body>
 
 </html>

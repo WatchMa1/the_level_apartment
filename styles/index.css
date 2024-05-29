@@ -50,7 +50,36 @@
     margin-top: -110px !important;
     z-index: 10;
 }
+.btn-column{
+    text-align: center;
+    align-content: center;
+}
+.btn-col{
+    border: 1px solid #FFEDD8;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+    color: #FFEDD8;
+    font-size: 20px;
+}
+form input,select{
+    background-color: #583101;
+    border: none;
+}
+form label,option{
+    color: #FFEDD8;
+    font-size: 20px;
+    font-family: Poppins;
+}
+.white-placeholder{
+    color: white;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+    opacity: 1;
+  }
 
+  
 .about-hd {
     font-family: play-fair;
     color: #583101;
