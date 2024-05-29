@@ -12,7 +12,9 @@ h2{
 .container{
   margin-top: 50px;
 }
-
+nav{
+  position: sticky;
+}
 .container .overlap-group {
   margin-top: -175px;
   max-width: 780px;
@@ -52,7 +54,6 @@ h2{
   position: relative;
   width: 100%; /* Adjust according to your video size */
   height: auto;
-  margin-top: 50px;
 }
 
 #playButton {
@@ -81,4 +82,26 @@ h2{
   color: black;
   line-height: 80px;
   text-align: center;
+}
+@media screen and (max-width:768px) {
+  #video{
+    position: relative;
+    width: 100%; /* Adjust according to your video size */
+    height: auto;
+  }
+  
+  #playButton {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: pulse 2s infinite alternate; /* Add animation */
+  }
+  .header-container{
+    margin-bottom: 30PX;
+    }
 }
