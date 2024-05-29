@@ -1,7 +1,7 @@
 .hero-image-icon {
     width: 100%;
     height: auto;
-    
+
 }
 
 .welcome {
@@ -99,7 +99,7 @@
 .parags p {
     color: #121619;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -125,8 +125,8 @@
 }
 
 .line-div {
-    width: 10%;
-
+    width: 112px;
+    position: relative;
     border-top: 1px solid #583101;
     box-sizing: border-box;
     height: 1px;
@@ -305,11 +305,27 @@
     gap: 16px;
 }
 
+.our-choice-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
 .our-spaces-parent {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 24px;
+}
+
+.faqs-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 24px;
 }
 
@@ -366,7 +382,8 @@
     text-align: left;
     display: inline-block;
 }
-.how-many-bedrooms{
+
+.how-many-bedrooms {
     width: 795px;
     position: relative;
     font-size: 20px;
@@ -376,12 +393,13 @@
     text-align: left;
     display: inline-block;
 }
-.add-icon{
+
+.add-icon {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-} 
+}
 
 .have-more-questions {
     position: relative;
@@ -390,17 +408,28 @@
     font-family: Poppins;
     color: #583101;
     text-align: left;
-    }
-    .contact-us-parent {
-        background-color: #a75e30;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding: 16px 24px;
-        gap: 8px;
-        color: #ffedd8;
-    }
+}
+
+.contact-us-parent {
+    background-color: #a75e30;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    gap: 8px;
+    color: #ffedd8;
+}
+
+.faqs {
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+    color: #583101;
+    text-align: left;
+}
+
 
 /* */
 @media (max-width: 1200px) {
