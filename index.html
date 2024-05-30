@@ -17,7 +17,7 @@
 </head>
 
 <body style="background-color: #ffedd8;">
-  <nav class="navbar navbar-expand-lg pb-5 pt-5 position-fixed w-100">
+  <nav class="navbar navbar-expand-lg pb-5 pt-5 position-sticky w-100">
     <div class="container ">
       <a class="navbar-brand " href="index.html">The LEVEL</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -47,16 +47,12 @@
     </div>
   </nav>
 
-  <div class="row position-relative">
+  <div class="row position-relative ">
     <img class="hero-image-icon col-12 col-md-12" alt="" src="img/_RMZ3121.png">
     <div class="welcome">
       <div class="welcome-text">
         <div class="get-luxury-and">GET LUXURY AND COMFORT</div>
         <div class="welcome-to-the">Welcome To The Place Where Luxury Meets Lifestyle</div>
-      </div>
-      <div class="take-a-tour">
-        <div class="the-level">Take A Tour</div>
-        <img class="north-icon" alt="" src="north.png">
       </div>
     </div>
   </div>
@@ -356,6 +352,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+          var nav = document.querySelector('.navbar');
+          if (window.scrollY > 170) {
+            nav.classList.add('fixed-top');
+          } else {
+            nav.classList.remove('fixed-top');
+          }
+        });
+      </script>
 </body>
 
 </html>
