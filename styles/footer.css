@@ -97,3 +97,9 @@ footer{
     letter-spacing: 0;
     line-height: normal;
   }
+  @media screen and (max-width:768px) {
+    footer{
+      background-color: #583101 !important;
+      margin-top: 70PX;
+    }
+  }

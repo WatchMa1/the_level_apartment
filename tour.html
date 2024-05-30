@@ -28,30 +28,31 @@
             <a class="nav-link active cur-page" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item m-2">
-            <a class="nav-link  active" href="tour.html">About Us</a>
+            <a class="nav-link  active" href="book.html">About Us</a>
           </li>
           <li class="nav-item m-2">
-            <a class="nav-link active" href="book.html"> Our Services</a>
+            <a class="nav-link active" href="services.html"> Our Services</a>
           </li>
           <li class="nav-item m-2">
-            <a class="nav-link active" href="products.html">Blog</a>
+            <a class="nav-link active" href="tour.html">Blog</a>
           </li>
           <li class="nav-item m-2">
             <a class="nav-link active" href="contact.html">Contact Us</a>
           </li>
         </ul>
-        <button class="nav-btn" style="z-index: 0;" type="submit" onclick="scheduleCall()">Book Now</button>
+        <button class="nav-btn" style="z-index: 0;" type="submit" onclick='location.href = "book.html";'>Book
+          Now</button>
       </div>
 
     </div>
   </nav>
 
   <div class="header-container d-flex justify-content-center align-items-center">
-    <video id="video">
+    <video autoplay loop muted preload="auto" id="video">
       <source src="./img/vid.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <button id="playButton" class=""><svg xmlns="http://www.w3.org/2000/svg" width="210" height="210"
+    <button id="playButton" class="d-none"><svg xmlns="http://www.w3.org/2000/svg" width="210" height="210"
         viewBox="0 0 210 210" fill="none">
         <g filter="url(#filter0_d_2461_427)">
           <circle cx="105" cy="101" r="65" fill="white" fill-opacity="0.8" shape-rendering="crispEdges" />
@@ -93,10 +94,10 @@
 
   <div class="container">
     <div class="overlap position-relative d-flex flex-column align-items-center">
-      <img class="rectangle" src="img/_RMZ3094.png" />
-      <div class="overlap-group d-flex flex-column align-items-center p-3">
+      <img class="rectangle d-none d-md-block" src="img/_RMZ3094.png" />
+      <div class="overlap-group d-flex flex-column align-items-center p-3 mt-3 mt-md-0">
         <div class="text-wrapper-10 pt-3">Luxurious rooms</div>
-        <p class="p p-4">
+        <p class="p p-md-4">
           Discover modern living in our spacious 3-bedroom flat at The Level Apartments. With sleek finishes and
           an open-plan layout, this residence offers comfort and style. The well-equipped kitchen and generous
           living...
@@ -107,10 +108,10 @@
   </div>
   <div class="container">
     <div class="overlap position-relative d-flex flex-column align-items-center">
-      <img class="rectangle" src="img/_RMZ3213.png" />
-      <div class="overlap-group d-flex flex-column align-items-center p-3">
+      <img class="rectangle d-none d-md-block" src="img/_RMZ3213.png" />
+      <div class="overlap-group d-flex flex-column align-items-center p-3 mt-3 mt-md-0">
         <div class="text-wrapper-10 pt-3">Pools</div>
-        <p class="p p-4">
+        <p class="p p-md-4">
           Escape the hustle and bustle and relax by our sparkling pool at The Level Apartments. Surrounded by
           lush landscaping and comfortable lounging areas, our pool area provides the perfect oasis for
           unwinding and soaking up the sun.
@@ -155,30 +156,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <Script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const video = document.getElementById('video');
-      const playButton = document.getElementById('playButton');
-
-      playButton.addEventListener('click', function () {
-        if (video.paused) {
-          video.play();
-          playButton.style.display = 'none'; // Hide the play button when video is playing
-        } else {
-          video.pause();
-        }
-      });
-
-      video.addEventListener('play', function () {
-        playButton.style.display = 'none'; // Hide the play button when video is playing
-      });
-
-      video.addEventListener('pause', function () {
-        playButton.style.display = 'block'; // Show the play button when video is paused
-      });
-    });
-
-  </Script>
   <script>
     window.addEventListener('scroll', function () {
       var nav = document.querySelector('.navbar');

@@ -104,4 +104,7 @@ nav{
   .header-container{
     margin-bottom: 30PX;
     }
+    .container .p{
+      font-size: 18px;
+    }
 }

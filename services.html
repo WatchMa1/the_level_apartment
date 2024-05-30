@@ -28,26 +28,27 @@
                         <a class="nav-link active cur-page" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link  active" href="tour.html">About Us</a>
+                        <a class="nav-link  active" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link active" href="book.html"> Our Services</a>
+                        <a class="nav-link active" href="services.html"> Our Services</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link active" href="products.html">Blog</a>
+                        <a class="nav-link active" href="tour.html">Blog</a>
                     </li>
                     <li class="nav-item m-2">
                         <a class="nav-link active" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
-                <button class="nav-btn" style="z-index: 0;" type="submit" onclick="scheduleCall()">Book Now</button>
+                <button class="nav-btn" style="z-index: 0;" type="submit" onclick='location.href = "book.html";'>Book
+                    Now</button>
             </div>
 
         </div>
     </nav>
 
     <div class="header-cont d-flex flex-column justify-content-center align-items-center">
-        <div class="center-cont w-75">
+        <div class="center-cont w-75 mt-4 mt-md-0">
             <p class="hero-header">SERVICES</p>
             <p class="hero-parag p-2">At The Level Apartments, we are dedicated to providing unparalleled services and
                 amenities
@@ -254,7 +255,7 @@
     <script>
         window.addEventListener('scroll', function () {
             var nav = document.querySelector('.navbar');
-            if (window.scrollY > 170) {
+            if (window.scrollY > 270) {
                 nav.classList.add('fixed-top');
             } else {
                 nav.classList.remove('fixed-top');
