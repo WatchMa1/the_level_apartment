@@ -1,232 +1,245 @@
-@media screen and (min-width:1200px) {
-    .about-us-inner1 {
-        background-image: url(../img/_RMZ3127.png);
-        background-size: cover;
-         width: 100%;
-         height: 1000px;
-         font-size: 32px;
-     }
-     .frame-wrapper1 {
-         width: 939px;
-         height: 238px;
-     }
-     .frame-wrapper2 {
-        
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: flex-start;
-     }
-     .the-next-level-living-experien-parent {
-         background-color: rgba(255, 237, 216, 0.74);
-         border: 1px solid #000;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: flex-start;
-         padding: 24px 0px;
-         gap: 72px;
-     }
-     .the-level{
-        
-        font-family: 'Playfair Display';
+.about-us-inner1 {
 
-     }
-     .about-roma-park{
-        
-        font-size: 24px;
-        font-weight: 500;
-        font-family: 'Playfair Display';
-        color: #583101;
-        text-align: left
-     }
-     .about-us4 {
-        font-size: 56px;
-        font-weight: 500;
-        text-align: center;
-        display: inline-block;
-        font-family: 'Playfair Display';
-    }
-    .frame-container {
-        width: 1382px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 107px;
-    }
+    height: 100%;
+    font-size: 32px;
+}
 
-    .frame-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-    .learn-more-parent {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 16px;
-    }
-    .about-us-parent {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 24px;
-    }
-    .line-parent {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    .welcome-to-the {
-    
-        
-    }
-    .rmz3005-icon {
-        align-self: right;
-        width: 80%;
-        height: auto;
-        }
-        .the-neighborhood{
-            position: relative;
-            font-size: 40px;
-            font-weight: 500;
-            font-family: 'Playfair Display';
-            color: #121619;
-            text-align: left;
-        }
-        .our-luxurious-apartments-container {
-           
-            font-size: 20px;
-            font-family:'Playfair Display';
-            display: inline-block;
-            
-        }
+.frame-wrapper1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: auto;
+    padding: 28px;
+}
 
-        .frame-parent4 {
-           
-            gap: 32px;
-            color: #121619;
-            font-family: Poppins;
-        }
+.frame-wrapper2 {
 
-        .frame-parent5 {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: flex-start;
-            gap: 64px;
-        }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-        .the-retreat-resturant-parent {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: flex-start;
-            gap: 4px;
-        }
-        .our-services {
-            position: relative;
-        }
+.the-next-level-living-experien-parent {
+    background-color: rgba(255, 237, 216, 0.74);
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 0px;
+    gap: 72px;
+}
 
-        .nearby-plcces {
-            color: #121619;
-        }
+.the-level {
 
-        .nearby-places {
-            padding: 24px 0px;
-            gap: 16px;
-        }
+    font-family: 'Playfair Display';
 
-        .nearby-places-parent {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: flex-start;
-            gap: 24px;
-            color: #583101;
-        }
+}
 
-        .easy-access-to {
-    width: 1146px;
+.about-roma-park {
+
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Playfair Display';
+    color: #583101;
+    text-align: left
+}
+
+.about-us4 {
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Playfair Display';
+}
+
+.frame-container {
+    width: 1382px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 107px;
+}
+
+.frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.learn-more-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.about-us-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.line-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.welcome-to-the {
     position: relative;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Playfair Display';
+    color: #121619;
+    text-align: left;
+}
+
+.rmz3005-icon {
+    align-self: right;
+    width: 80%;
+    height: auto;
+}
+
+.the-neighborhood {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+    color: #121619;
+    text-align: left;
+}
+
+.our-luxurious-apartments-container {
+
+    font-size: 18px;
+    font-family: 'Playfair Display';
+    display: inline-block;
+
+}
+
+.frame-parent4 {
+
+    gap: 32px;
+    color: #121619;
+    font-family: Poppins;
+}
+
+.frame-parent5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 64px;
+}
+
+.the-retreat-resturant-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.our-services {
+    position: relative;
+}
+
+.nearby-plcces {
+    color: #121619;
+}
+
+.nearby-places {
+    padding: 24px 0px;
+    gap: 16px;
+}
+
+.nearby-places-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    color: #583101;
+}
+
+.easy-access-to {
+
+    position: relative;
+    font-size: 18px;
     font-family: Poppins;
     display: inline-block;
 }
 
-.our-luxurious-apartments-are{
+.our-luxurious-apartments-are {
     color: #121619;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.para{
+.para {
     color: #121619;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal
 }
-.at-the-level{
+
+.at-the-level {
     color: #121619;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal
 }
+
 .whether-youre-seeking {
     color: #121619;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal 
-}
+    line-height: normal
 }
 
 
 @media screen and ((max-width: 768px)) {
-    
-    .about-us-inner1 {
-        background-image: url(../img/_RMZ3127.png);
-        background-size: cover;
-         max-width: 100%;
-         height: 1000px;
-         font-size: 32px;
-     }
-     .frame-wrapper1 {
-         width: 100%;
-         height: 238px;
-     }
-     .frame-wrapper2 {
-        
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: flex-start;
-     }
-     .the-next-level-living-experien-parent {
-         background-color: rgba(255, 237, 216, 0.74);
-         border: 1px solid #000;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: flex-start;
-         padding: 24px 0px;
-         gap: 72px;
-     }
 
-     .the-neighborhood{
+    .frame-wrapper2 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translate(10%, 1%);
+    }
+
+    .the-next-level-living-experien-parent {
+        background-color: rgba(255, 237, 216, 0.74);
+        border: 1px solid #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 24px 0px;
+        gap: 50px;
+    }
+
+    .the-neighborhood {
         position: relative;
         font-size: 20px;
         font-weight: 500;
@@ -234,13 +247,14 @@
         color: #121619;
         text-align: left;
     }
+
     .our-luxurious-apartments-container {
         width: 934px;
         position: relative;
         font-size: 20px;
-        font-family:'Playfair Display';
+        font-family: 'Playfair Display';
         display: inline-block;
-        
+
     }
 
     .frame-parent4 {
@@ -268,9 +282,11 @@
         justify-content: flex-start;
         gap: 4px;
     }
+
     .our-services {
         position: relative;
     }
+
     .nearby-plcces {
         color: #121619;
     }
@@ -279,46 +295,79 @@
         padding: 24px 0px;
         gap: 16px;
     }
+
     .ulendo-icon {
-    width: 222px;
-    position: relative;
-    height: 222px;
-    object-fit: cover;
-    
-}
+        width: 222px;
+        position: relative;
+        height: 222px;
+        object-fit: cover;
 
-.nearby-places-parent {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-    color: #583101;
-}
-.our-luxurious-apartments-are{
-    color: #121619;
-    font-family: Poppins;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+    }
 
-.para{
-    color: #121619;
-    font-family: Poppins;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal
-}
-  }
-
-  @media screen and ((max-width: 540px)) {
-    .shopping-group{
+    .nearby-places-parent {
         display: flex;
-        
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 24px;
+        color: #583101;
+    }
+
+    .our-luxurious-apartments-are {
+        color: #121619;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .para {
+        color: #121619;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal
+    }
+
+    .frame-wrapper2 {
+
+        width: 600px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+
+    .shopping-group {
+        display: flex;
+
         align-items: center;
     }
-   
-  }
+    .frame-wrapper2 {
+        width: 80%;
+        padding: 20px;
+        transform: translate(10%, 1%);
+        /* Further reduce the gap */
+    }
+
+    .the-next-level-living-experien-parent {
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .ready-to-experience {
+        font-size: 10px;
+        /* Adjust paragraph font size for better readability */
+    }
+
+    .about-us4 {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        display: inline-block;
+        font-family: 'Playfair Display';
+    }
+}

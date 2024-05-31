@@ -169,8 +169,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .stunning-2-bedroom {
     position: relative;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
     font-family: 'Playfair Display';
     color: #583101;
     text-align: left;
@@ -318,8 +318,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .bedroom-luxe-apartments {
     position: relative;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
     font-family: 'Playfair Display';
     color: #121619;
     text-align: left;
@@ -458,6 +458,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #583101;
     text-align: left;
 }
+
+.check-our-surrounding {
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Playfair Display';
+    color: #121619;
+    text-align: left;
+    }
 
 
 /* */
