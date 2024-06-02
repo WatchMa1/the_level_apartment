@@ -1,9 +1,9 @@
-.hero-image-icon {
-    width: 100%;
-    height: auto;
 
+.hero-bg{
+    background-image: url(../img/_RMZ3121.png);
+    background-position: center;
+    height: 600px;
 }
-
 .welcome {
     position: absolute;
     top: 50%;
@@ -540,13 +540,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 
 }
+@media screen and (max-width:768px) {
 
-@media (max-width: 768px) {
     .welcome-to-the {
         font-size: 32px;
-        width: 600px;
+        width: 550px;
     }
-
+    .hero-bg{
+        height: 300px;
+    }
     .get-luxury-and {
         font-size: 20px;
     }

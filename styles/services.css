@@ -120,34 +120,35 @@ background: rgba(255, 237, 216, 0.74);
     justify-content: flex-start;
     color: #ffedd8;
     font-family: 'Playfair Display';
-}
+    }
     .hero-header{
         color: #583101;
         text-align: center;
         font-family: "Playfair Display";
-        font-size: 36px;
-        font-style: normal;
+        font-size: 24px;
         font-weight: 500;
-        line-height: normal;
+        line-height: 2;
         text-transform: uppercase;
+        margin-bottom: 0px;
         }
         .hero-parag{
         color: #583101;
         text-align: center;
         font-family: Poppins;
-        font-size: 18px;
-        font-style: normal;
+        font-size: 16px;
+        margin-bottom: 0px;
         font-weight: 400;
-        line-height: normal;
+        line-height: 1.25;
         }
     .about-hd{
         font-family: play-fair;
         color: #583101;
         font-size: 28px;
-        gap: 120;
+        gap:0;
     }
     .center-cont{
         gap:0px;
+        padding: 0px;
     }
     .parags p{
         color: #121619;
