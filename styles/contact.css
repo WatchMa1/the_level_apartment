@@ -1,188 +1,221 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:500,italic|Poppins:500,400|Raleway:500,600");
+
 * {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
 }
 
 /* a blue color as a generic focus style */
 button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-}
-a {
-  text-decoration: none;
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
 }
 
-.item{
+a {
+    text-decoration: none;
+}
+
+.icon {
+    width: 100%;
+    height: auto;
+}
+
+.item {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    
+
     /* Assuming white text for contrast */
 }
 
-.item-wrapper{
-    
-    height: 100%; 
+.item-wrapper {
+
+    height: 100%;
     gap: 72px;
-  
-    }
 
-     .text-wrapper-10 {
-        
-        font-family: "Playfair Display-Medium", Helvetica;
-        font-weight: 500;
-        color: #583101;
-        font-size: 56px;
-        text-align: center;
-        letter-spacing: 0;
-        line-height: normal;
-    }
+}
 
-   
+.text-wrapper-10 {
 
-     .overlap {
-      
-        
-        height: 65px;
-       
-        border: 0.5px solid;
-        border-color: #583101;
-    }
-  
+    font-family: "Playfair Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #583101;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
 
-    .overlap-2 {
-    
-        
-        height: 65px;
-      
-        border: 0.5px solid;
-        border-color: #583101;
-    }
 
-    .text-wrapper-12 {
-       
-        font-family: "Playfair Display-Regular", Helvetica;
-        font-weight: 400;
-        color: #583101;
-        font-size: 36px;
-        text-align: center;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-     .text-wrapper-13 {
-       
-        font-family: "Poppins-Regular", Helvetica;
-        font-weight: 400;
-        color: #7c6a46;
-        font-size: 20px;
-        text-align: center;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-     .text-wrapper-11 {
-        font-family: "Poppins-Regular", Helvetica;
-        font-weight: 400;
-        color: #7c6a46;
-        font-size: 20px;
-        text-align: start;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-    .text-wrapper-14 {
-       
-        font-family: "Playfair Display-Regular", Helvetica;
-        font-weight: 400;
-        color: #583101;
-        font-size: 36px;
-        text-align: center;
-        letter-spacing: 0;
-        line-height: normal;
-    }
 
- 
-    .overlap-3 {
-        
-        width: 100%;
-        height: 300px;
-       
-        border: 0.5px solid;
-        border-color: #583101;
-    }
+.overlap {
 
-    .text-wrapper-15 {
-        font-family: "Playfair Display-Regular", Helvetica;
-        font-weight: 400;
-        color: #583101;
-        font-size: 36px;
-        text-align: center;
-        letter-spacing: 0;
-        line-height: normal;
-    }
 
-  
+    height: 65px;
 
-    .overlap-group {
-    
-        width: 100%;
-        height: 820px;
-    }
+    border: 0.5px solid;
+    border-color: #583101;
+}
+
+
+.overlap-2 {
+
+
+    height: 65px;
+
+    border: 0.5px solid;
+    border-color: #583101;
+}
+
+.text-wrapper-12 {
+
+    font-family: "Playfair Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #583101;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.text-wrapper-13 {
+
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #7c6a46;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.text-wrapper-11 {
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #7c6a46;
+    font-size: 20px;
+    text-align: start;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.text-wrapper-14 {
+
+    font-family: "Playfair Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #583101;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+.overlap-3 {
+
+    width: 100%;
+    height: 300px;
+
+    border: 0.5px solid;
+    border-color: #583101;
+}
+
+.text-wrapper-15 {
+    font-family: "Playfair Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #583101;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
+.overlap-group {
+
+    width: 100%;
+    height: 820px;
+}
+
+.frame-6 {
+    display: flex;
+    flex-direction: column;
+    width: 939px;
+    height: auto;
+    align-items: center;
+    gap: 20px;
+    padding: 28px;
+    background-color: #ffedd8bd;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.rectangle {
+    height: 459px;
+    object-fit: cover;
+}
+
+@media (max-width: 1200px) {
     .frame-6 {
-        display: flex;
-        flex-direction: column;
-        width: 939px;
-        height: auto;
-        align-items: center;
-        gap: 20px;
-        padding: 28px;
-        background-color: #ffedd8bd;
-        border-radius: 15px;
-        overflow: hidden;
+
+        width: 800px;
     }
 
-    .rectangle {
-        width: 100%;
-        height: 459px;
-        object-fit: cover;
+
+}
+
+@media (max-width: 992px) {
+    .welcome-to-the {
+
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .frame-6 {
+
+        width: 600px;
+    }
+}
+
+@media (max-width: 576px) {
+    .frame-6 {
+        width: 90%;
+        padding: 20px;
+        gap: 5px;
+        /* Further reduce the gap */
     }
 
-    @media (max-width: 1200px) {
-        .frame-6 {
-            
-            width: 800px;
-        }
-    
-       
+    .text-wrapper-10 {
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
     }
 
-    @media (max-width: 992px) {
-        .welcome-to-the {
-            
-            width: 700px;
-        }
-    }    
-
-    @media (max-width: 768px) {
-        .frame-6 {
-            
-            width: 600px;
-        }
+    .ready-to-experience {
+        font-size: 10px;
+        /* Adjust paragraph font size for better readability */
     }
-    @media (max-width: 576px) {
-       .frame-6 {
-    width: 90%;
-    padding: 20px;
-    gap: 5px; /* Further reduce the gap */
-  }
+}
 
-  .text-wrapper-10 {
-    font-size: 18px; /* Adjust font size for smaller screens */
-  }
+@media (max-width:360px) {
+    .frame-6 {
+        width: 90%;
+        padding: 5px;
+        gap: 5px;
+        /* Further reduce the gap */
+    }
 
-  .ready-to-experience {
-    font-size: 10px; /* Adjust paragraph font size for better readability */
-  }
-      }
+    .text-wrapper-10 {
+        font-size: 13px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .ready-to-experience {
+        font-size: 10px;
+        /* Adjust paragraph font size for better readability */
+    }
+}
