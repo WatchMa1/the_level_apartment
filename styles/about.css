@@ -1,3 +1,20 @@
+
+.body-btn {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #583101;
+    width: fit-content;
+    color: #FFEDD8;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
 .about-us-inner1 {
 
     height: 100%;
