@@ -50,11 +50,13 @@
     margin-top: -110px !important;
     z-index: 10;
 }
-.btn-column{
+
+.btn-column {
     text-align: center;
     align-content: center;
 }
-.btn-col{
+
+.btn-col {
     border: 1px solid #FFEDD8;
     text-align: center;
     align-content: center;
@@ -62,24 +64,30 @@
     color: #FFEDD8;
     font-size: 20px;
 }
-form input,select{
+
+form input,
+select {
     background-color: #583101;
     border: none;
 }
-form label,option{
+
+form label,
+option {
     color: #FFEDD8;
     font-size: 20px;
     font-family: Poppins;
 }
-.white-placeholder{
+
+.white-placeholder {
     color: white;
 }
-input[type="date"]::-webkit-calendar-picker-indicator {
-    filter: invert(1); 
-    opacity: 1;
-  }
 
-  
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    opacity: 1;
+}
+
+
 .about-hd {
     font-family: play-fair;
     color: #583101;
@@ -345,8 +353,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .our-spaces-parent {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content:flex-start;
     gap: 24px;
 }
 
@@ -378,7 +386,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .discover-the-unparalleled {
-    width: 934px;
+    
     position: relative;
     font-size: 18px;
     font-family: Poppins;
@@ -466,7 +474,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-family: 'Playfair Display';
     color: #121619;
     text-align: left;
-    }
+}
+
+.frequently-asked-questions {
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Playfair Display';
+    color: #121619;
+    text-align: left;
+}
 
 
 /* */
