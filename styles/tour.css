@@ -16,7 +16,7 @@ nav{
   position: sticky;
 }
 .container .overlap-group {
-  margin-top: -175px;
+  margin-top: -75px !important;
   max-width: 780px;
   background-color: #ffffff;
   border-radius: 20px 20px 20px 20px;

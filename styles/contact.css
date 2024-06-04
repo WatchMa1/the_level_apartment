@@ -15,7 +15,43 @@ button:focus-visible {
 a {
     text-decoration: none;
 }
-
+.ready{
+color: #583101;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-hd{
+color: #583101;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.label{
+color: #583101;
+text-align: start;
+font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.input-placeholder{
+color: #7C6A46;
+text-align: start;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 5px;
+}
 .icon {
     width: 100%;
     height: auto;
@@ -87,7 +123,7 @@ a {
     font-weight: 400;
     color: #7c6a46;
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 0;
     line-height: normal;
 }
@@ -169,20 +205,43 @@ a {
 }
 
 @media (max-width: 992px) {
+    .item{
+        width: 90%;
+    }
     .welcome-to-the {
 
         width: 700px;
+    }
+    .ready{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .hero-hd{
+        font-size: 36px;
     }
 }
 
 @media (max-width: 768px) {
     .frame-6 {
 
-        width: 600px;
+        width: 90%;
+    }
+    .ready{
+        font-size: 16px;
+    }
+    .hero-hd{
+        font-size: 24px;
     }
 }
 
 @media (max-width: 576px) {
+    .ready{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .hero-hd{
+        font-size: 24px;
+    }
     .frame-6 {
         width: 90%;
         padding: 20px;

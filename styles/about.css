@@ -51,8 +51,13 @@
 }
 
 .the-level {
-
-    font-family: 'Playfair Display';
+    color: #583101;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-inline: 40px;
 
 }
 
@@ -66,11 +71,13 @@
 }
 
 .about-us4 {
-    font-size: 56px;
-    font-weight: 500;
+    color: #583101;
     text-align: center;
-    display: inline-block;
-    font-family: 'Playfair Display';
+    font-family: "Playfair Display";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .frame-container {
@@ -244,7 +251,9 @@
         justify-content: center;
         transform: translate(3%, 1%);
     }
-
+    .about-us4{
+        font-size: 32;
+    }
     .the-next-level-living-experien-parent {
         background-color: rgba(255, 237, 216, 0.74);
         border: 1px solid #000;
@@ -253,7 +262,11 @@
         align-items: center;
         justify-content: flex-start;
         padding: 24px 0px;
-        gap: 50px;
+        gap: 20px;
+    }
+    .the-level{
+        font-size: 24px;
+        padding-inline: 20px;
     }
 
     .the-neighborhood {
@@ -370,8 +383,9 @@
         /* Further reduce the gap */
     }
 
-    .the-next-level-living-experien-parent {
-        font-size: 12px;
+    .the-level {
+        font-size: 18px;
+        padding-inline: 15px;
         /* Adjust font size for smaller screens */
     }
 
@@ -381,10 +395,15 @@
     }
 
     .about-us4 {
-        font-size: 10px;
-        font-weight: 100;
+        font-size: 28px;
         text-align: center;
         display: inline-block;
         font-family: 'Playfair Display';
+        color: #583101;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 }
