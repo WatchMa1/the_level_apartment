@@ -288,7 +288,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: 2.5%;
+    left: 2.9%;
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -313,7 +313,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: 1.5%;
+    left: 2.9%;
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -324,7 +324,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: 1.5%;
+    left: 2.9%;
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -335,7 +335,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: 1.5%;
+    left: 2.9%;
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -593,6 +593,66 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         margin-bottom: 1rem;
     }
 
+    
+.image-text1 {
+    position: absolute;
+    z-index: 1;
+    bottom: 3.9%;
+    left: 3.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
+.image-text2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0.5%;
+    left: 2.0%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
+
+.image-text3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 8.9%;
+    left: 3.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+.image-text4 {
+    position: absolute;
+    z-index: 1;
+    bottom: 15.5%;
+    left: 3.9%;;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+.image-text5 {
+    position: absolute;
+    z-index: 1;
+    bottom: 9.9%;
+    left: 3.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
 }
 @media screen and (max-width:768px) {
 
@@ -632,6 +692,67 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         font-size: 14px;
     }
 
+    
+    
+.image-text1 {
+    position: absolute;
+    z-index: 1;
+    bottom: 5.5%;
+    left: 4.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
+.image-text2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    left: 3.0%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
+
+.image-text3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10.5%;
+    left: 4.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+.image-text4 {
+    position: absolute;
+    z-index: 1;
+    bottom: 17.5%;
+    left: 5.9%;;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+.image-text5 {
+    position: absolute;
+    z-index: 1;
+    bottom: 12.9%;
+    left: 4.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
 }
 
 @media (max-width: 576px) {
@@ -658,4 +779,67 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .discover-the-unparalleled {
         width: 100%;
     }
+
+    
+    
+.image-text1 {
+    position: absolute;
+    z-index: 1;
+    bottom: 3.5%;
+    left: 3.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
+.image-text2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    left: 3.7%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
+
+.image-text3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 7.0%;
+    left: 3.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+.image-text4 {
+    position: absolute;
+    z-index: 1;
+    bottom: 7.0%;
+    left: 3.9%;;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+.image-text5 {
+    position: absolute;
+    z-index: 1;
+    bottom: 7.5%;
+    left: 3.9%;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+}
+
+
 }
