@@ -757,14 +757,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 @media (max-width: 576px) {
     .welcome-to-the {
-        font-size: 24px;
+        font-size: 15px;
         width: 100%;
         padding: 0 20px;
         /* Add some padding for better readability */
     }
 
     .get-luxury-and {
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .form-inner-container {
