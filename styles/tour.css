@@ -55,19 +55,6 @@ nav{
   width: 100%; /* Adjust according to your video size */
   height: auto;
 }
-
-#playButton {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  animation: pulse 2s infinite alternate; /* Add animation */
-}
-
 @keyframes pulse {
   0% {
     transform: translate(-50%, -50%) scale(1);
@@ -89,22 +76,17 @@ nav{
     width: 100%; /* Adjust according to your video size */
     height: auto;
   }
-  
-  #playButton {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    animation: pulse 2s infinite alternate; /* Add animation */
-  }
+
   .header-container{
     margin-bottom: 30PX;
     }
     .container .p{
       font-size: 18px;
+    }
+    .container{
+      margin-top: 120px;
+    }
+    .container .overlap-group {
+      margin-top: 0pxs !important;
     }
 }
